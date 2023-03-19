@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-style: normal;
+    outline: none;
+}
+
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.chat-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.chat-messages {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+}
+
+.chat-input input[type="text"],
+.chat-input input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.chat-input button {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.message {
+    margin-top: 5px;
+    background: #a7c9ea;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+.message__info{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+
+.like__icon{
+    width: 20px;
+    height: 20px;
+}
+
+.liked{
+    background: red;
+}
+
+
+.message__remove-btn{
+    padding-top: 5px;
+}
+
+
+
